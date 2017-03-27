@@ -1,9 +1,9 @@
 class Node
 
-  attr_accessor :value,:parent
+  attr_accessor :location,:parent
 
-  def initialize(value)
+  def initialize(location)
     @parent = nil
-    @value = value
+    @location = location
   end
 end
